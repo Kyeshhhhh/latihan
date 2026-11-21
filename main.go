@@ -10,6 +10,6 @@ fmt. Fprintln(w, "Hallo nama saya Kayyis")
 http.HandleFunc("/", handlerIndex)
 
 fmt.Println("server started at 43.173.13.18:9006")
-http.ListenAndServe(":9029", nil)
+http.ListenAndServe(":9006", nil)
 
 }
